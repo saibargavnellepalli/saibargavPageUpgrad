@@ -1,0 +1,27 @@
+nav ul {
+  /* flex will display list widely */
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+
+  /*padding for border and content */
+  padding: 12px 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Style the content sections */
+.content {
+  display: none;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style the active content section */
+:target {
+  display: block;
+}
